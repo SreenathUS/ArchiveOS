@@ -1,0 +1,2 @@
+ALTER TABLE imports ADD COLUMN dry_run INTEGER DEFAULT 0;
+ALTER TABLE imports ADD COLUMN software_version TEXT;

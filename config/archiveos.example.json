@@ -1,0 +1,12 @@
+{
+  "source_root": "/media/sunntiha/IronWolf8TB2/ALL/a6700/07072026",
+  "archive_root": "/media/sunntiha/IronWolf8TB2/ALL/Camera/Sony_A6700",
+  "workers": 4,
+  "importer": "sony_a6700",
+  "metadata_provider": "exiftool",
+  "hash_algorithm": "sha256",
+  "log_level": "INFO",
+  "quarantine_enabled": true,
+  "allow_mtime_fallback": false,
+  "dry_run": true
+}

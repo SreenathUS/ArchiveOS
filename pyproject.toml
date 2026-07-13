@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archiveos"
+version = "0.1.0"
+description = "ArchiveOS modular import pipeline"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+archiveos = "archiveos.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["archiveos*"]
